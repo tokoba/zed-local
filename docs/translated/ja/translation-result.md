@@ -1,0 +1,885 @@
+# Shimai Translate Result
+
+- **Status**: partial
+- **Source Directory**: C:\Drive\rust\zed-local\docs\src
+- **Output Directory**: C:\Drive\rust\zed-local\docs\translated\ja
+- **Target Lang**: ja
+- **Source Lang**: en
+- **Concurrency**: 5
+- **Model**: gpt-5.1
+
+## Totals
+
+- **Total files**: 170
+- **Success**: 169
+- **Failure**: 1
+- **Skipped**: 0
+- **Retries**: 3
+- **Total chars**: 728486
+- **Glossary applied (files)**: 0
+
+## Processed (Success)
+
+- `C:\Drive\rust\zed-local\docs\src\ai\billing.md` → `C:\Drive\rust\zed-local\docs\translated\ja\ai\billing-be443f65.md`
+  - chars: 2155
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\ai\configuration.md` → `C:\Drive\rust\zed-local\docs\translated\ja\ai\configuration-be443f65.md`
+  - chars: 614
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\SUMMARY.md` → `C:\Drive\rust\zed-local\docs\translated\ja\SUMMARY-af1349b9.md`
+  - chars: 5618
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\ai\agent-settings.md` → `C:\Drive\rust\zed-local\docs\translated\ja\ai\agent-settings-be443f65.md`
+  - chars: 8388
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\ai\agent-panel.md` → `C:\Drive\rust\zed-local\docs\translated\ja\ai\agent-panel-be443f65.md`
+  - chars: 9512
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\ai\ai-improvement.md` → `C:\Drive\rust\zed-local\docs\translated\ja\ai\ai-improvement-be443f65.md`
+  - chars: 5467
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\ai\inline-assistant.md` → `C:\Drive\rust\zed-local\docs\translated\ja\ai\inline-assistant-be443f65.md`
+  - chars: 2809
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\ai\external-agents.md` → `C:\Drive\rust\zed-local\docs\translated\ja\ai\external-agents-be443f65.md`
+  - chars: 9093
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\ai\mcp.md` → `C:\Drive\rust\zed-local\docs\translated\ja\ai\mcp-be443f65.md`
+  - chars: 6110
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\ai\overview.md` → `C:\Drive\rust\zed-local\docs\translated\ja\ai\overview-be443f65.md`
+  - chars: 2107
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\ai\models.md` → `C:\Drive\rust\zed-local\docs\translated\ja\ai\models-be443f65.md`
+  - chars: 7997
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\ai\plans-and-usage.md` → `C:\Drive\rust\zed-local\docs\translated\ja\ai\plans-and-usage-be443f65.md`
+  - chars: 1471
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\ai\subscription.md` → `C:\Drive\rust\zed-local\docs\translated\ja\ai\subscription-be443f65.md`
+  - chars: 371
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\ai\llm-providers.md` → `C:\Drive\rust\zed-local\docs\translated\ja\ai\llm-providers-be443f65.md`
+  - chars: 25190
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\ai\rules.md` → `C:\Drive\rust\zed-local\docs\translated\ja\ai\rules-be443f65.md`
+  - chars: 1981
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\ai\privacy-and-security.md` → `C:\Drive\rust\zed-local\docs\translated\ja\ai\privacy-and-security-be443f65.md`
+  - chars: 1392
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\all-actions.md` → `C:\Drive\rust\zed-local\docs\translated\ja\all-actions-af1349b9.md`
+  - chars: 30
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\ai\text-threads.md` → `C:\Drive\rust\zed-local\docs\translated\ja\ai\text-threads-be443f65.md`
+  - chars: 273
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\authentication.md` → `C:\Drive\rust\zed-local\docs\translated\ja\authentication-af1349b9.md`
+  - chars: 1557
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\ai\tool-permissions.md` → `C:\Drive\rust\zed-local\docs\translated\ja\ai\tool-permissions-be443f65.md`
+  - chars: 8065
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\ai\tools.md` → `C:\Drive\rust\zed-local\docs\translated\ja\ai\tools-be443f65.md`
+  - chars: 2968
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\appearance.md` → `C:\Drive\rust\zed-local\docs\translated\ja\appearance-af1349b9.md`
+  - chars: 2822
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\command-palette.md` → `C:\Drive\rust\zed-local\docs\translated\ja\command-palette-af1349b9.md`
+  - chars: 372
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\collaboration\channels.md` → `C:\Drive\rust\zed-local\docs\translated\ja\collaboration\channels-e683762b.md`
+  - chars: 3724
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\collaboration\overview.md` → `C:\Drive\rust\zed-local\docs\translated\ja\collaboration\overview-e683762b.md`
+  - chars: 1330
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\collaboration\contacts-and-private-calls.md` → `C:\Drive\rust\zed-local\docs\translated\ja\collaboration\contacts-and-private-calls-e683762b.md`
+  - chars: 591
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\completions.md` → `C:\Drive\rust\zed-local\docs\translated\ja\completions-af1349b9.md`
+  - chars: 1146
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\dev-containers.md` → `C:\Drive\rust\zed-local\docs\translated\ja\dev-containers-af1349b9.md`
+  - chars: 1725
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\configuring-zed.md` → `C:\Drive\rust\zed-local\docs\translated\ja\configuring-zed-af1349b9.md`
+  - chars: 3205
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\development\debugging-crashes.md` → `C:\Drive\rust\zed-local\docs\translated\ja\development\debugging-crashes-b8eef6c9.md`
+  - chars: 998
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\configuring-languages.md` → `C:\Drive\rust\zed-local\docs\translated\ja\configuring-languages-af1349b9.md`
+  - chars: 13693
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\debugger.md` → `C:\Drive\rust\zed-local\docs\translated\ja\debugger-af1349b9.md`
+  - chars: 10023
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\development\freebsd.md` → `C:\Drive\rust\zed-local\docs\translated\ja\development\freebsd-b8eef6c9.md`
+  - chars: 968
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\development\debuggers.md` → `C:\Drive\rust\zed-local\docs\translated\ja\development\debuggers-b8eef6c9.md`
+  - chars: 3429
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\development\feature-process.md` → `C:\Drive\rust\zed-local\docs\translated\ja\development\feature-process-b8eef6c9.md`
+  - chars: 2632
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\development\macos.md` → `C:\Drive\rust\zed-local\docs\translated\ja\development\macos-b8eef6c9.md`
+  - chars: 4694
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\development\linux.md` → `C:\Drive\rust\zed-local\docs\translated\ja\development\linux-b8eef6c9.md`
+  - chars: 8290
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\development\release-notes.md` → `C:\Drive\rust\zed-local\docs\translated\ja\development\release-notes-b8eef6c9.md`
+  - chars: 1344
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\diagnostics.md` → `C:\Drive\rust\zed-local\docs\translated\ja\diagnostics-af1349b9.md`
+  - chars: 1356
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\development\glossary.md` → `C:\Drive\rust\zed-local\docs\translated\ja\development\glossary-b8eef6c9.md`
+  - chars: 4887
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\editing-code.md` → `C:\Drive\rust\zed-local\docs\translated\ja\editing-code-af1349b9.md`
+  - chars: 1014
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\development.md` → `C:\Drive\rust\zed-local\docs\translated\ja\development-af1349b9.md`
+  - chars: 2795
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\development\windows.md` → `C:\Drive\rust\zed-local\docs\translated\ja\development\windows-b8eef6c9.md`
+  - chars: 8723
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\environment.md` → `C:\Drive\rust\zed-local\docs\translated\ja\environment-af1349b9.md`
+  - chars: 2593
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\extensions\agent-servers.md` → `C:\Drive\rust\zed-local\docs\translated\ja\extensions\agent-servers-45c24edb.md`
+  - chars: 5014
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\extensions\capabilities.md` → `C:\Drive\rust\zed-local\docs\translated\ja\extensions\capabilities-45c24edb.md`
+  - chars: 2183
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\extensions\icon-themes.md` → `C:\Drive\rust\zed-local\docs\translated\ja\extensions\icon-themes-45c24edb.md`
+  - chars: 1834
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\extensions\installing-extensions.md` → `C:\Drive\rust\zed-local\docs\translated\ja\extensions\installing-extensions-45c24edb.md`
+  - chars: 717
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\extensions\slash-commands.md` → `C:\Drive\rust\zed-local\docs\translated\ja\extensions\slash-commands-45c24edb.md`
+  - chars: 135
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\extensions\mcp-extensions.md` → `C:\Drive\rust\zed-local\docs\translated\ja\extensions\mcp-extensions-45c24edb.md`
+  - chars: 1138
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\extensions\debugger-extensions.md` → `C:\Drive\rust\zed-local\docs\translated\ja\extensions\debugger-extensions-45c24edb.md`
+  - chars: 4075
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\extensions\developing-extensions.md` → `C:\Drive\rust\zed-local\docs\translated\ja\extensions\developing-extensions-45c24edb.md`
+  - chars: 7423
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\extensions\snippets.md` → `C:\Drive\rust\zed-local\docs\translated\ja\extensions\snippets-45c24edb.md`
+  - chars: 551
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\extensions\languages.md` → `C:\Drive\rust\zed-local\docs\translated\ja\extensions\languages-45c24edb.md`
+  - chars: 18783
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\extensions\themes.md` → `C:\Drive\rust\zed-local\docs\translated\ja\extensions\themes-45c24edb.md`
+  - chars: 1367
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\extensions.md` → `C:\Drive\rust\zed-local\docs\translated\ja\extensions-af1349b9.md`
+  - chars: 516
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\helix.md` → `C:\Drive\rust\zed-local\docs\translated\ja\helix-af1349b9.md`
+  - chars: 663
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\finding-navigating.md` → `C:\Drive\rust\zed-local\docs\translated\ja\finding-navigating-af1349b9.md`
+  - chars: 1706
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\getting-started.md` → `C:\Drive\rust\zed-local\docs\translated\ja\getting-started-af1349b9.md`
+  - chars: 2704
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\icon-themes.md` → `C:\Drive\rust\zed-local\docs\translated\ja\icon-themes-af1349b9.md`
+  - chars: 915
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\git.md` → `C:\Drive\rust\zed-local\docs\translated\ja\git-af1349b9.md`
+  - chars: 13371
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\globs.md` → `C:\Drive\rust\zed-local\docs\translated\ja\globs-af1349b9.md`
+  - chars: 5514
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\asciidoc.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\asciidoc-2831cf60.md`
+  - chars: 346
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\installation.md` → `C:\Drive\rust\zed-local\docs\translated\ja\installation-af1349b9.md`
+  - chars: 3746
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\biome.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\biome-2831cf60.md`
+  - chars: 808
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\astro.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\astro-2831cf60.md`
+  - chars: 1521
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\ansible.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\ansible-2831cf60.md`
+  - chars: 3400
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\key-bindings.md` → `C:\Drive\rust\zed-local\docs\translated\ja\key-bindings-af1349b9.md`
+  - chars: 10926
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\c.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\c-2831cf60.md`
+  - chars: 2556
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\clojure.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\clojure-2831cf60.md`
+  - chars: 312
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\bash.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\bash-2831cf60.md`
+  - chars: 1130
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\csharp.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\csharp-2831cf60.md`
+  - chars: 4359
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\css.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\css-2831cf60.md`
+  - chars: 562
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\dart.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\dart-2831cf60.md`
+  - chars: 1266
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\cpp.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\cpp-2831cf60.md`
+  - chars: 4327
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\diff.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\diff-2831cf60.md`
+  - chars: 630
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\docker.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\docker-2831cf60.md`
+  - chars: 919
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\deno.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\deno-2831cf60.md`
+  - chars: 2725
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\emmet.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\emmet-2831cf60.md`
+  - chars: 335
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\fish.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\fish-2831cf60.md`
+  - chars: 767
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\elm.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\elm-2831cf60.md`
+  - chars: 1176
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\erlang.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\erlang-2831cf60.md`
+  - chars: 755
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\gleam.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\gleam-2831cf60.md`
+  - chars: 545
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\glsl.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\glsl-2831cf60.md`
+  - chars: 312
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\gdscript.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\gdscript-2831cf60.md`
+  - chars: 1091
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\groovy.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\groovy-2831cf60.md`
+  - chars: 457
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\elixir.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\elixir-2831cf60.md`
+  - chars: 6529
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\haskell.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\haskell-2831cf60.md`
+  - chars: 1330
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\helm.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\helm-2831cf60.md`
+  - chars: 678
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\html.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\html-2831cf60.md`
+  - chars: 2523
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\go.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\go-2831cf60.md`
+  - chars: 4520
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\jsonnet.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\jsonnet-2831cf60.md`
+  - chars: 638
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\java.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\java-2831cf60.md`
+  - chars: 5796
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\julia.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\julia-2831cf60.md`
+  - chars: 512
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\kotlin.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\kotlin-2831cf60.md`
+  - chars: 1362
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\json.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\json-2831cf60.md`
+  - chars: 2493
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\luau.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\luau-2831cf60.md`
+  - chars: 1128
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\makefile.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\makefile-2831cf60.md`
+  - chars: 310
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\nim.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\nim-2831cf60.md`
+  - chars: 847
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\javascript.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\javascript-2831cf60.md`
+  - chars: 6273
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\lua.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\lua-2831cf60.md`
+  - chars: 5109
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\opentofu.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\opentofu-2831cf60.md`
+  - chars: 596
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\ocaml.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\ocaml-2831cf60.md`
+  - chars: 980
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\powershell.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\powershell-2831cf60.md`
+  - chars: 1686
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\prisma.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\prisma-2831cf60.md`
+  - chars: 309
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\markdown.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\markdown-2831cf60.md`
+  - chars: 2065
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\purescript.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\purescript-2831cf60.md`
+  - chars: 324
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\php.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\php-2831cf60.md`
+  - chars: 5209
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\proto.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\proto-2831cf60.md`
+  - chars: 1525
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\racket.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\racket-2831cf60.md`
+  - chars: 400
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\roc.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\roc-2831cf60.md`
+  - chars: 645
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\rst.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\rst-2831cf60.md`
+  - chars: 400
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\rego.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\rego-2831cf60.md`
+  - chars: 1121
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\python.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\python-2831cf60.md`
+  - chars: 12348
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\r.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\r-2831cf60.md`
+  - chars: 4667
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\scala.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\scala-2831cf60.md`
+  - chars: 1369
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\scheme.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\scheme-2831cf60.md`
+  - chars: 182
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\ruby.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\ruby-2831cf60.md`
+  - chars: 9749
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\sql.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\sql-2831cf60.md`
+  - chars: 1548
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\rust.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\rust-2831cf60.md`
+  - chars: 8574
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\sh.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\sh-2831cf60.md`
+  - chars: 1366
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\swift.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\swift-2831cf60.md`
+  - chars: 1626
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\toml.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\toml-2831cf60.md`
+  - chars: 253
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\svelte.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\svelte-2831cf60.md`
+  - chars: 2757
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\tailwindcss.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\tailwindcss-2831cf60.md`
+  - chars: 2301
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\terraform.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\terraform-2831cf60.md`
+  - chars: 786
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\xml.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\xml-2831cf60.md`
+  - chars: 396
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\uiua.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\uiua-2831cf60.md`
+  - chars: 342
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\vue.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\vue-2831cf60.md`
+  - chars: 3019
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\yarn.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\yarn-2831cf60.md`
+  - chars: 590
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\zig.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\zig-2831cf60.md`
+  - chars: 224
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\yara.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\yara-2831cf60.md`
+  - chars: 345
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\yaml.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\yaml-2831cf60.md`
+  - chars: 4471
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages-af1349b9.md`
+  - chars: 7142
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\languages\typescript.md` → `C:\Drive\rust\zed-local\docs\translated\ja\languages\typescript-2831cf60.md`
+  - chars: 6779
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\macos.md` → `C:\Drive\rust\zed-local\docs\translated\ja\macos-af1349b9.md`
+  - chars: 2629
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\linux.md` → `C:\Drive\rust\zed-local\docs\translated\ja\linux-af1349b9.md`
+  - chars: 13795
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\migrate\intellij.md` → `C:\Drive\rust\zed-local\docs\translated\ja\migrate\intellij-c0b050dc.md`
+  - chars: 12549
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\migrate\pycharm.md` → `C:\Drive\rust\zed-local\docs\translated\ja\migrate\pycharm-c0b050dc.md`
+  - chars: 14217
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\migrate\vs-code.md` → `C:\Drive\rust\zed-local\docs\translated\ja\migrate\vs-code-c0b050dc.md`
+  - chars: 17460
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\modelines.md` → `C:\Drive\rust\zed-local\docs\translated\ja\modelines-af1349b9.md`
+  - chars: 4071
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\multibuffers.md` → `C:\Drive\rust\zed-local\docs\translated\ja\multibuffers-af1349b9.md`
+  - chars: 2283
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\migrate\rustrover.md` → `C:\Drive\rust\zed-local\docs\translated\ja\migrate\rustrover-c0b050dc.md`
+  - chars: 13800
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\quick-start.md` → `C:\Drive\rust\zed-local\docs\translated\ja\quick-start-af1349b9.md`
+  - chars: 10
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\migrate\webstorm.md` → `C:\Drive\rust\zed-local\docs\translated\ja\migrate\webstorm-c0b050dc.md`
+  - chars: 15238
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\outline-panel.md` → `C:\Drive\rust\zed-local\docs\translated\ja\outline-panel-af1349b9.md`
+  - chars: 1242
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\reference\cli.md` → `C:\Drive\rust\zed-local\docs\translated\ja\reference\cli-520f876b.md`
+  - chars: 3260
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\reference\default-key-bindings.md` → `C:\Drive\rust\zed-local\docs\translated\ja\reference\default-key-bindings-520f876b.md`
+  - chars: 14
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\roles.md` → `C:\Drive\rust\zed-local\docs\translated\ja\roles-af1349b9.md`
+  - chars: 1422
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\performance.md` → `C:\Drive\rust\zed-local\docs\translated\ja\performance-af1349b9.md`
+  - chars: 5252
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\repl.md` → `C:\Drive\rust\zed-local\docs\translated\ja\repl-af1349b9.md`
+  - chars: 6225
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\running-testing.md` → `C:\Drive\rust\zed-local\docs\translated\ja\running-testing-af1349b9.md`
+  - chars: 1045
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\snippets.md` → `C:\Drive\rust\zed-local\docs\translated\ja\snippets-af1349b9.md`
+  - chars: 1213
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\remote-development.md` → `C:\Drive\rust\zed-local\docs\translated\ja\remote-development-af1349b9.md`
+  - chars: 9597
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\tab-switcher.md` → `C:\Drive\rust\zed-local\docs\translated\ja\tab-switcher-af1349b9.md`
+  - chars: 1601
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\semantic-tokens.md` → `C:\Drive\rust\zed-local\docs\translated\ja\semantic-tokens-af1349b9.md`
+  - chars: 7016
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\telemetry.md` → `C:\Drive\rust\zed-local\docs\translated\ja\telemetry-af1349b9.md`
+  - chars: 2282
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\themes.md` → `C:\Drive\rust\zed-local\docs\translated\ja\themes-af1349b9.md`
+  - chars: 2956
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\terminal.md` → `C:\Drive\rust\zed-local\docs\translated\ja\terminal-af1349b9.md`
+  - chars: 7666
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\toolchains.md` → `C:\Drive\rust\zed-local\docs\translated\ja\toolchains-af1349b9.md`
+  - chars: 1474
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\tasks.md` → `C:\Drive\rust\zed-local\docs\translated\ja\tasks-af1349b9.md`
+  - chars: 8892
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\update.md` → `C:\Drive\rust\zed-local\docs\translated\ja\update-af1349b9.md`
+  - chars: 505
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\uninstall.md` → `C:\Drive\rust\zed-local\docs\translated\ja\uninstall-af1349b9.md`
+  - chars: 2430
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\troubleshooting.md` → `C:\Drive\rust\zed-local\docs\translated\ja\troubleshooting-af1349b9.md`
+  - chars: 3871
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\reference\all-settings.md` → `C:\Drive\rust\zed-local\docs\translated\ja\reference\all-settings-520f876b.md`
+  - chars: 85086
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\windows.md` → `C:\Drive\rust\zed-local\docs\translated\ja\windows-af1349b9.md`
+  - chars: 1941
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\vim.md` → `C:\Drive\rust\zed-local\docs\translated\ja\vim-af1349b9.md`
+  - chars: 31719
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\worktree-trust.md` → `C:\Drive\rust\zed-local\docs\translated\ja\worktree-trust-af1349b9.md`
+  - chars: 2606
+  - front matter: None
+  - BOM: false
+  - glossary: no
+- `C:\Drive\rust\zed-local\docs\src\visual-customization.md` → `C:\Drive\rust\zed-local\docs\translated\ja\visual-customization-af1349b9.md`
+  - chars: 17875
+  - front matter: None
+  - BOM: false
+  - glossary: no
+
+## Processed (Failure)
+
+- `C:\Drive\rust\zed-local\docs\src\ai\edit-prediction.md`
+  - error: "Translate error: チャンキングエラー: APIエラー: internal error: Other error: api error: openai-compat POST <http://127.0.0.1:5130/v1/chat/completions> - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
+
+## Skipped
+
+*None*
+
+## Front Matter & BOM
+
+- **Formats (detected)**:
+  - None: 169 files
+- **BOM preserved**: 0 files
+
+---
+Generated by Shimai MCP (Rust)
