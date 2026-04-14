@@ -66,4 +66,4 @@ For details on AI data handling, see [Zed AI Features and Privacy](./ai/ai-impro
 
 ## Concerns and Questions
 
-If you have concerns about telemetry, you can [open an issue](https://github.com/zed-industries/zed/issues/new/choose) or email hi@zed.dev.
+If you have concerns about telemetry, you can [open an issue](https://github.com/zed-industries/zed/issues/new/choose) or email <hi@zed.dev>.

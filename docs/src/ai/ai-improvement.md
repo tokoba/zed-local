@@ -43,7 +43,7 @@ You should reference your agreement with each service provider to understand wha
 You can provide feedback on Zed's AI features by rating specific AI responses in Zed and sharing details related to those conversations with Zed. Each share is opt-in, and sharing once will not cause future content or data to be shared again.
 
 > **Rating = Data Sharing:** When you rate a response, your entire conversation thread is sent to Zed. This includes messages, AI responses, and thread metadata.
-> **_If you don't want data persisted on Zed's servers, don't rate_**. We will not collect data for improving our AI features without you explicitly rating responses.
+> ***If you don't want data persisted on Zed's servers, don't rate***. We will not collect data for improving our AI features without you explicitly rating responses.
 
 ### Data Collected (AI Feedback)
 

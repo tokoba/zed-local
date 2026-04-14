@@ -1,8 +1,8 @@
 # Zed Server
 
-This crate is what we run at https://collab.zed.dev.
+This crate is what we run at <https://collab.zed.dev>.
 
-It contains our back-end logic for collaboration, to which we connect from the Zed client via a websocket after authenticating via https://zed.dev, which is a separate repo running on Vercel.
+It contains our back-end logic for collaboration, to which we connect from the Zed client via a websocket after authenticating via <https://zed.dev>, which is a separate repo running on Vercel.
 
 # Local Development
 
@@ -21,7 +21,7 @@ script/bootstrap
 
 This script will set up the `zed` Postgres database, and populate it with some users. It requires internet access, because it fetches some users from the GitHub API.
 
-The script will create several _admin_ users, who you'll sign in as by default when developing locally. The GitHub logins for the default users are specified in the `seed.default.json` file.
+The script will create several *admin* users, who you'll sign in as by default when developing locally. The GitHub logins for the default users are specified in the `seed.default.json` file.
 
 To use a different set of admin users, create `crates/collab/seed.json`.
 
@@ -52,8 +52,8 @@ This script starts one to four instances of Zed, depending on the `-2`, `-3` or 
 
 We run two instances of collab:
 
-- Staging (https://staging-collab.zed.dev)
-- Production (https://collab.zed.dev)
+- Staging (<https://staging-collab.zed.dev>)
+- Production (<https://collab.zed.dev>)
 
 Both of these run on the Kubernetes cluster hosted in Digital Ocean.
 

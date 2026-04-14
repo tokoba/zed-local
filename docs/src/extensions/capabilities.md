@@ -28,7 +28,7 @@ For example, to restrict downloads to files from GitHub, set `host` for the `dow
 }
 ```
 
-If you don't want extensions to be able to perform _any_ capabilities, you can remove all granted capabilities:
+If you don't want extensions to be able to perform *any* capabilities, you can remove all granted capabilities:
 
 ```json
 {

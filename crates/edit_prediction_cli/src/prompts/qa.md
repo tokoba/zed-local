@@ -3,20 +3,24 @@ You are evaluating an edit prediction model for a code editor. The model observe
 All diffs are in the word-diff format.
 
 The model is instructed to:
+
 - Complete partially-applied refactoring or changes
 - Maintain consistency with established patterns and style
 - NOT delete or revert text that was just added (unless the user explicitly undid it themselves)
 
 ## Edit History (chronological)
+
 ```````
 {edit_history}
 ```````
 
 ## Current File
+
 The file where the prediction will be applied, with editable region markers showing where edits can occur:
 {cursor_excerpt}
 
 ## Predicted Next Edit
+
 ```````
 {actual_patch_word_diff}
 ```````

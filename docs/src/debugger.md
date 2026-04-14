@@ -8,7 +8,7 @@ description: Debug code in Zed with the Debug Adapter Protocol (DAP). Breakpoint
 Zed uses the [Debug Adapter Protocol (DAP)](https://microsoft.github.io/debug-adapter-protocol/) to provide debugging functionality across multiple programming languages.
 DAP is a standardized protocol that defines how debuggers, editors, and IDEs communicate with each other.
 It allows Zed to support various debuggers without needing to implement language-specific debugging logic.
-Zed implements the client side of the protocol, and various _debug adapters_ implement the server side.
+Zed implements the client side of the protocol, and various *debug adapters* implement the server side.
 
 This protocol enables features like setting breakpoints, stepping through code, inspecting variables,
 and more, in a consistent manner across different programming languages and runtime environments.
@@ -37,7 +37,7 @@ Follow those links for language- and adapter-specific information and examples, 
 
 ## Getting Started
 
-For most languages, the fastest way to get started is to run {#action debugger::Start} ({#kb debugger::Start}). This opens the _new process modal_, which shows you a contextual list of preconfigured debug tasks for the current project. Debug tasks are created from tests, entry points (like a `main` function), and from other sources — consult the documentation for your language for full information about what's supported.
+For most languages, the fastest way to get started is to run {#action debugger::Start} ({#kb debugger::Start}). This opens the *new process modal*, which shows you a contextual list of preconfigured debug tasks for the current project. Debug tasks are created from tests, entry points (like a `main` function), and from other sources — consult the documentation for your language for full information about what's supported.
 
 You can open the same modal by clicking the "plus" button at the top right of the debug panel.
 
@@ -74,7 +74,7 @@ Populate this file with the same array of objects you would place in `.zed/debug
 
 ### Launching & Attaching
 
-Zed debugger offers two ways to debug your program; you can either _launch_ a new instance of your program or _attach_ to an existing process.
+Zed debugger offers two ways to debug your program; you can either *launch* a new instance of your program or *attach* to an existing process.
 Which one you choose depends on what you are trying to achieve.
 
 When launching a new instance, Zed (and the underlying debug adapter) can often do a better job at picking up the debug information compared to attaching to an existing process, since it controls the lifetime of a whole program.
@@ -158,7 +158,7 @@ At present, you can:
 - Add a hit count to a breakpoint, which will only stop at the breakpoint after it's hit a certain number of times.
 - Disable a breakpoint, which will prevent it from being hit while leaving it visible in the gutter.
 
-Some debug adapters (e.g. CodeLLDB and JavaScript) will also _verify_ whether your breakpoints can be hit; breakpoints that cannot be hit are surfaced more prominently in the UI.
+Some debug adapters (e.g. CodeLLDB and JavaScript) will also *verify* whether your breakpoints can be hit; breakpoints that cannot be hit are surfaced more prominently in the UI.
 
 All breakpoints enabled for a given project are also listed in "Breakpoints" item in your debugging session UI. From "Breakpoints" item in your UI you can also manage exception breakpoints.
 The debug adapter will then stop whenever an exception of a given kind occurs. Which exception types are supported depends on the debug adapter.
@@ -355,7 +355,7 @@ Inline value hints can also be toggled from the Editor Controls menu in the edit
 - Default: Adapter-specific
 - Setting: `dap.$ADAPTER.binary` and `dap.$ADAPTER.args`
 
-You can pass `binary`, `args`, or both. `binary` should be a path to a _debug adapter_ (like `lldb-dap`) not a _debugger_ (like `lldb` itself). The `args` setting overrides any arguments that Zed would otherwise pass to the adapter.
+You can pass `binary`, `args`, or both. `binary` should be a path to a *debug adapter* (like `lldb-dap`) not a *debugger* (like `lldb` itself). The `args` setting overrides any arguments that Zed would otherwise pass to the adapter.
 
 ```json [settings]
 {

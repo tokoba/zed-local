@@ -3,7 +3,7 @@ title: C#
 description: "Configure C# language support in Zed, including language servers, formatting, and debugging."
 ---
 
-# C#
+# C #
 
 C# support is available through the [C# extension](https://github.com/zed-extensions/csharp).
 

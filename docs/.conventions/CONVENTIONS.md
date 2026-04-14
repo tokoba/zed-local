@@ -39,14 +39,14 @@ For voice, tone, and writing style, see the [brand-voice/](./brand-voice/) direc
 
 ## Page vs. Section Decisions
 
-### Create a new page when:
+### Create a new page when
 
 - Introducing a **major feature** with multiple sub-features (e.g., Git integration, Vim mode)
 - The topic requires **extensive configuration examples**
 - Users would search for it **by name** (e.g., "Zed terminal", "Zed snippets")
 - It's a **new category** (e.g., a new AI provider type)
 
-### Add to an existing page when:
+### Add to an existing page when
 
 - Adding a **setting** to a feature that already has a page
 - Adding a **keybinding** to an existing feature

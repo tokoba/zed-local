@@ -12,7 +12,7 @@ Zed supports [Gemini CLI](https://github.com/google-gemini/gemini-cli) (the refe
 For Zed's built-in agent and the full list of tools it can use natively, see [Agent Tools](./tools.md).
 
 > Note that Zed's interaction with external agents is strictly UI-based; the billing, legal, and terms arrangement is directly between you and the agent provider.
-> Zed does not charge for use of external agents, and our [zero-data retention agreements/privacy guarantees](./ai-improvement.md) are **_only_** applicable for Zed's hosted models.
+> Zed does not charge for use of external agents, and our [zero-data retention agreements/privacy guarantees](./ai-improvement.md) are ***only*** applicable for Zed's hosted models.
 
 ## Gemini CLI {#gemini-cli}
 
@@ -87,7 +87,7 @@ If you'd like to bind this to a keyboard shortcut, you can do so by editing your
 ### Authentication
 
 As of version `0.202.7`, authentication to Zed's Claude Agent installation is decoupled entirely from Zed's agent.
-That is to say, an Anthropic API key added via the [Zed Agent's settings](./llm-providers.md#anthropic) will _not_ be utilized by Claude Agent for authentication and billing.
+That is to say, an Anthropic API key added via the [Zed Agent's settings](./llm-providers.md#anthropic) will *not* be utilized by Claude Agent for authentication and billing.
 
 To ensure you're using your billing method of choice, [open a new Claude Agent thread](./agent-panel.md#new-thread).
 Then, run `/login`, and authenticate either via API key, or via `Log in with Claude Code` to use a Claude Pro/Max subscription.
@@ -123,8 +123,8 @@ However, the SDK doesn't yet expose everything needed to fully support all of th
 
 - Slash Commands: [Custom slash commands](https://code.claude.com/docs/en/slash-commands#custom-slash-commands) are fully supported, and have been merged into skills. A subset of [built-in commands](https://code.claude.com/docs/en/slash-commands#built-in-slash-commands) are supported.
 - [Subagents](https://code.claude.com/docs/en/sub-agents) are supported.
-- [Agent teams](https://code.claude.com/docs/en/agent-teams) are currently _not_ supported.
-- [Hooks](https://code.claude.com/docs/en/hooks-guide) are currently _not_ supported.
+- [Agent teams](https://code.claude.com/docs/en/agent-teams) are currently *not* supported.
+- [Hooks](https://code.claude.com/docs/en/hooks-guide) are currently *not* supported.
 
 > Some [agent panel](./agent-panel.md) features are not yet available with Claude Agent: editing past messages, resuming threads from history, and checkpointing.
 
@@ -162,12 +162,12 @@ If you'd like to bind this to a keyboard shortcut, you can do so by editing your
 ### Authentication
 
 Authentication to Zed's Codex installation is decoupled entirely from Zed's agent.
-That is to say, an OpenAI API key added via the [Zed Agent's settings](./llm-providers.md#openai) will _not_ be utilized by Codex for authentication and billing.
+That is to say, an OpenAI API key added via the [Zed Agent's settings](./llm-providers.md#openai) will *not* be utilized by Codex for authentication and billing.
 
 To ensure you're using your billing method of choice, [open a new Codex thread](./agent-panel.md#new-thread).
 The first time you will be prompted to authenticate with one of three methods:
 
-1. Login with ChatGPT - allows you to use your existing, paid ChatGPT subscription. _Note: This method isn't currently supported in remote projects_
+1. Login with ChatGPT - allows you to use your existing, paid ChatGPT subscription. *Note: This method isn't currently supported in remote projects*
 2. `CODEX_API_KEY` - uses an API key you have set in your environment under the variable `CODEX_API_KEY`.
 3. `OPENAI_API_KEY` - uses an API key you have set in your environment under the variable `OPENAI_API_KEY`.
 

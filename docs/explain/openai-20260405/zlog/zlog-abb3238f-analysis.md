@@ -408,7 +408,7 @@ fn init_file_logging() -> std::io::Result<()> {
 ```
 
 - 日時は `chrono::Local` の ISO 8601 形式。
-- レベルは固定幅 5 文字（`ERROR` / `WARN ` / `INFO ` / `DEBUG` / `TRACE`）。
+- レベルは固定幅 5 文字（`ERROR` / `WARN` / `INFO` / `DEBUG` / `TRACE`）。
 - ソース部は `SourceFmt` によって `[scope.or.module:line]` の形式で組み立てられます。
 
 **使用例（通常は直接呼ばずマクロ経由で利用）**

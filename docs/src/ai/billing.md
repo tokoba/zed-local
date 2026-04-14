@@ -17,7 +17,7 @@ This page embeds data from Orb, our invoicing and metering partner.
 
 ## Billing Cycles {#billing-cycles}
 
-Zed is billed on a monthly basis based on the date you initially subscribe. You'll receive _at least_ one invoice from Zed each month you're subscribed to Zed Pro, and more than one if you use more than $10 in incremental token spend within the month.
+Zed is billed on a monthly basis based on the date you initially subscribe. You'll receive *at least* one invoice from Zed each month you're subscribed to Zed Pro, and more than one if you use more than $10 in incremental token spend within the month.
 
 ## Threshold Billing {#threshold-billing}
 

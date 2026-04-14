@@ -4,7 +4,7 @@
 - Unlike Aider or Claude code, it's not intended to be interactive. Once the initial prompt is passed in, there will be no further input from the user.
 - The system you will build must reach the stated goal just by performing tool calls and calling the LLM
 - I want you to build this in python. Use the anthropic python sdk and the model context protocol sdk. Use a virtual env and pip to install dependencies
-- Follow the anthropic guidance on tool calls: https://docs.anthropic.com/en/docs/build-with-claude/tool-use/overview
+- Follow the anthropic guidance on tool calls: <https://docs.anthropic.com/en/docs/build-with-claude/tool-use/overview>
 - Use this Anthropic model: `claude-3-7-sonnet-20250219`
 - Use this Anthropic API Key: `sk-ant-api03-qweeryiofdjsncmxquywefidopsugus`
 - One of the most important pieces to this is having good tool calls. We will be using the tools provided by the Claude MCP server. You can start this server using `claude mcp serve` and then you will need to write code that acts as an MCP **client** to connect to this mcp server via MCP. Likely you want to start this using a subprocess. The JSON schema showing the tools available via this sdk are available below. Via this MCP server you have access to all the tools that zode needs: Bash, GlobTool, GrepTool, LS, View, Edit, Replace, WebFetchTool
@@ -13,6 +13,7 @@
 - Once you’ve implemented this, you must run python zode.py eval/instructions.md to see how well our new agent tool does!
 
 Anthropic Python SDK README:
+
 ```
 # Anthropic Python API library
 
@@ -203,7 +204,6 @@ message.usage
 
 This SDK provides beta support for the [Message Batches API](https://docs.anthropic.com/en/docs/build-with-claude/message-batches) under the `client.beta.messages.batches` namespace.
 
-
 ### Creating a batch
 
 Message Batches take the exact same request params as the standard Messages API:
@@ -230,7 +230,6 @@ await client.beta.messages.batches.create(
     ]
 )
 ```
-
 
 ### Getting results from a batch
 
@@ -548,7 +547,7 @@ will result in the client terminating the connection and retrying without receiv
 
 We set a [TCP socket keep-alive](https://tldp.org/HOWTO/TCP-Keepalive-HOWTO/overview.html) option in order
 to reduce the impact of idle connection timeouts on some networks.
-This can be [overridden](#Configuring-the-HTTP-client) by passing a `http_client` option to the client.
+This can be [overridden](#configuring-the-http-client) by passing a `http_client` option to the client.
 
 ## Default Headers
 
@@ -575,7 +574,7 @@ We use the standard library [`logging`](https://docs.python.org/3/library/loggin
 You can enable logging by setting the environment variable `ANTHROPIC_LOG` to `info`.
 
 ```shell
-$ export ANTHROPIC_LOG=info
+export ANTHROPIC_LOG=info
 ```
 
 Or to `debug` for more verbose logging.
@@ -731,7 +730,7 @@ with Anthropic() as client:
 This package generally follows [SemVer](https://semver.org/spec/v2.0.0.html) conventions, though certain backwards-incompatible changes may be released as minor versions:
 
 1. Changes that only affect static types, without breaking runtime behavior.
-2. Changes to library internals which are technically public but not intended or documented for external use. _(Please open a GitHub issue to let us know if you are relying on such internals.)_
+2. Changes to library internals which are technically public but not intended or documented for external use. *(Please open a GitHub issue to let us know if you are relying on such internals.)*
 3. Changes that we do not expect to impact the vast majority of users in practice.
 
 We take backwards-compatibility seriously and work hard to ensure you can rely on a smooth upgrade experience.
@@ -756,6 +755,7 @@ Python 3.8 or higher.
 ## Contributing
 
 See [the contributing documentation](./CONTRIBUTING.md).
+
 ```
 
 
@@ -851,6 +851,7 @@ If you haven't created a uv-managed project yet, create one:
    ```
 
 Alternatively, for projects using pip for dependencies:
+
 ```bash
 pip install "mcp[cli]"
 ```
@@ -890,11 +891,13 @@ def get_greeting(name: str) -> str:
 ```
 
 You can install this server in [Claude Desktop](https://claude.ai/download) and interact with it right away by running:
+
 ```bash
 mcp install server.py
 ```
 
 Alternatively, you can test it with the MCP Inspector:
+
 ```bash
 mcp dev server.py
 ```
@@ -1116,6 +1119,7 @@ if __name__ == "__main__":
 ```
 
 Run it with:
+
 ```bash
 python server.py
 # or
@@ -1248,6 +1252,7 @@ async def query_db(name: str, arguments: dict) -> list:
 ```
 
 The lifespan API provides:
+
 - A way to initialize resources when the server starts and clean them up when it stops
 - Access to initialized resources through the request context in handlers
 - Type-safe context passing between lifespan and request handlers
@@ -1419,8 +1424,8 @@ We are passionate about supporting contributors of all levels of experience and 
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-
 MCP Python SDK example of an MCP client:
+
 ```py
 import asyncio
 import json
@@ -1854,10 +1859,8 @@ if __name__ == "__main__":
     asyncio.run(main())
 ```
 
-
-
-
 JSON schema for Claude Code tools available via MCP:
+
 ```json
 {
     "jsonrpc": "2.0",

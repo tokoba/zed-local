@@ -1394,7 +1394,7 @@ or
 
 **Options**
 
-1.  Activate the tab that was open previously:
+1. Activate the tab that was open previously:
 
 ```json [settings]
 {
@@ -1432,7 +1432,7 @@ or
 
 **Options**
 
-1.  Show it just upon hovering the tab:
+1. Show it just upon hovering the tab:
 
 ```json [settings]
 {
@@ -1527,7 +1527,7 @@ or
 
 **Options**
 
-1.  Whether or not to restore unsaved buffers on restart:
+1. Whether or not to restore unsaved buffers on restart:
 
 ```json [settings]
 {
@@ -4210,7 +4210,7 @@ See Buffer Font Features
 }
 ```
 
-3.  Use a custom line height.
+3. Use a custom line height.
 
 ```json [settings]
 {
@@ -5391,7 +5391,7 @@ Example:
 
 To preview and enable a settings profile, open the command palette via {#kb command_palette::Toggle} and search for `settings profile selector: toggle`.
 
-## An example configuration:
+## An example configuration
 
 ```json [settings]
 // ~/.config/zed/settings.json

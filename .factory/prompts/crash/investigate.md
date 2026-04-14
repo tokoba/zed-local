@@ -33,6 +33,7 @@ Read the stack trace bottom-to-top (from crash site upward) and identify:
 4. **The data flow** — trace how the invalid data reached the crash site. What computed the bad index, the None value, etc.?
 
 Find the relevant source files in the repository and read them. Pay close attention to:
+
 - The crashing function and its callers
 - How inputs to the crashing operation are computed
 - Any assumptions the code makes about its inputs (string encoding, array lengths, option values)

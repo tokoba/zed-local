@@ -171,6 +171,7 @@ Zed doesn’t import extensions or keybindings, but this import gets core editor
 You can configure most settings in the Settings Editor ({#kb zed::OpenSettings}). For advanced settings, run `zed: open settings file` from the Command Palette to edit your settings file directly.
 
 Here’s how common VS Code settings translate:
+
 | VS Code | Zed | Notes |
 | --- | --- | --- |
 | editor.fontFamily | buffer_font_family | Zed uses Zed Mono by default |

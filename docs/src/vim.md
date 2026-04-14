@@ -390,7 +390,7 @@ Contexts are nested, so when you're editing a file, the context is the `"Editor"
 }
 ```
 
-Contexts are expressions. They support boolean operators like `&&` (and) and `||` (or). For example, you can use the context `"Editor && vim_mode == normal"` to create key bindings that only work when you're editing a file _and_ you're in vim's normal mode.
+Contexts are expressions. They support boolean operators like `&&` (and) and `||` (or). For example, you can use the context `"Editor && vim_mode == normal"` to create key bindings that only work when you're editing a file *and* you're in vim's normal mode.
 
 Vim mode adds several contexts to the `"Editor"` context:
 

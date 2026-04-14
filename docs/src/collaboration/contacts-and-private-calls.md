@@ -11,7 +11,7 @@ Private calls provide ad-hoc collaboration sessions outside of channels. Add con
 
 1. In the Collaboration Panel, click the `+` button next to the `Contacts` section
 1. Search for the contact using their GitHub handle.\
-   _Note: Your contact must be an existing Zed user who has completed the GitHub authentication sign-in flow._
+   *Note: Your contact must be an existing Zed user who has completed the GitHub authentication sign-in flow.*
 1. Your contact will receive a notification.
    Once they accept, you'll both appear in each other's contact list.
 
@@ -26,4 +26,4 @@ Once you've begun a private call, you can add other online contacts by clicking 
 
 ---
 
-_Private calls work like [channels](./channels.md), without channel-specific features such as channel notes._
+*Private calls work like [channels](./channels.md), without channel-specific features such as channel notes.*

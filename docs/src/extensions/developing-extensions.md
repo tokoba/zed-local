@@ -24,7 +24,7 @@ Before starting to develop an extension for Zed, be sure to [install Rust via ru
 
 > Rust must be installed via rustup. If you have Rust installed via homebrew or otherwise, installing dev extensions will not work.
 
-When developing an extension, you can use it in Zed without needing to publish it by installing it as a _dev extension_.
+When developing an extension, you can use it in Zed without needing to publish it by installing it as a *dev extension*.
 
 From the extensions page, click the `Install Dev Extension` button (or the {#action zed::InstallDevExtension} action) and select the directory containing your extension.
 

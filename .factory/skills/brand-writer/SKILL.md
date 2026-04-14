@@ -171,6 +171,7 @@ For high-stakes content (homepage, announcements, product pages), run the draft 
 ```
 
 Paste your draft and let humanizer:
+
 1. Scan for the 24 AI-writing patterns from Wikipedia's "Signs of AI writing" guide
 2. Audit for remaining tells ("What makes this obviously AI generated?")
 3. Revise to add natural voice and rhythm

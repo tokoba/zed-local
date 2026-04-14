@@ -4,15 +4,15 @@ This is a tool for inspecting and manipulating rendered elements in Zed. It is o
 
 # Current features
 
-* Picking of elements via the mouse, with scroll wheel to inspect occluded elements.
+- Picking of elements via the mouse, with scroll wheel to inspect occluded elements.
 
-* Temporary manipulation of the selected element.
+- Temporary manipulation of the selected element.
 
-* Layout info for `Div`.
+- Layout info for `Div`.
 
-* Both Rust and JSON-based style manipulation of `Div` style. The rust style editor only supports argumentless `Styled` and `StyledExt` method calls.
+- Both Rust and JSON-based style manipulation of `Div` style. The rust style editor only supports argumentless `Styled` and `StyledExt` method calls.
 
-* Navigation to code that constructed the element.
+- Navigation to code that constructed the element.
 
 # Known bugs
 
@@ -38,17 +38,17 @@ I attempted to fix it by creating a new buffer and setting the buffer associated
 
 # Future features
 
-* Action and keybinding for entering pick mode.
+- Action and keybinding for entering pick mode.
 
-* Ability to highlight current element after it's been picked.
+- Ability to highlight current element after it's been picked.
 
-* Info and manipulation of element types other than `Div`.
+- Info and manipulation of element types other than `Div`.
 
-* Indicate when the picked element has disappeared.
+- Indicate when the picked element has disappeared.
 
-* To inspect elements that disappear, it would be helpful to be able to pause the UI.
+- To inspect elements that disappear, it would be helpful to be able to pause the UI.
 
-* Hierarchy view?
+- Hierarchy view?
 
 ## Methods that take arguments in Rust style editor
 
@@ -66,9 +66,9 @@ With both approaches, would need to record the buffer version and use that when 
 
 ## Source location UI improvements
 
-* Mode to navigate to source code on every element change while picking.
+- Mode to navigate to source code on every element change while picking.
 
-* Tracking of more source locations - currently the source location is often in a ui component. Ideally this would have a way for the components to indicate that they are probably not the source location the user is looking for.
+- Tracking of more source locations - currently the source location is often in a ui component. Ideally this would have a way for the components to indicate that they are probably not the source location the user is looking for.
 
   - Could have `InspectorElementId` be `Vec<(ElementId, Option<Location>)>`, but if there are multiple code paths that construct the same element this would cause them to be considered different.
 
@@ -78,13 +78,13 @@ With both approaches, would need to record the buffer version and use that when 
 
 Currently, element modifications disappear when picker mode is started. Handling this well is tricky. Potential features:
 
-* Support modifying multiple elements at once. This requires a way to specify which elements are modified - possibly wildcards in a match of the `InspectorElementId` path. This might default to ignoring all numeric parts and just matching on the names.
+- Support modifying multiple elements at once. This requires a way to specify which elements are modified - possibly wildcards in a match of the `InspectorElementId` path. This might default to ignoring all numeric parts and just matching on the names.
 
-* Show a list of active modifications in the UI.
+- Show a list of active modifications in the UI.
 
-* Support for modifications being partial overrides instead of snapshots. A trickiness here is that multiple modifications may apply to the same element.
+- Support for modifications being partial overrides instead of snapshots. A trickiness here is that multiple modifications may apply to the same element.
 
-* The code should probably distinguish the data that is provided by the element and the modifications from the inspector. Currently these are conflated in element states.
+- The code should probably distinguish the data that is provided by the element and the modifications from the inspector. Currently these are conflated in element states.
 
 If support is added for editing original code, then the logical selector in this case would be just matches of the source path.
 

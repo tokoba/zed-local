@@ -61,7 +61,7 @@ shfmt --version
   }
 ```
 
-## See also:
+## See also
 
 - [Zed Docs: Language Support: Bash](./bash.md)
 - [Zed Docs: Language Support: Fish](./fish.md)

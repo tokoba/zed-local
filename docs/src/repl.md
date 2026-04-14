@@ -75,7 +75,7 @@ style.use('ggplot')
 
 <div class="warning">
 
-On macOS, your system Python will _not_ work. Either set up [pyenv](https://github.com/pyenv/pyenv?tab=readme-ov-file#installation) or use a virtual environment.
+On macOS, your system Python will *not* work. Either set up [pyenv](https://github.com/pyenv/pyenv?tab=readme-ov-file#installation) or use a virtual environment.
 
 </div>
 

@@ -7,7 +7,7 @@ description: "Configure JavaScript language support in Zed, including language s
 
 JavaScript support is available natively in Zed.
 
-- Tree-sitter: [tree-sitter/tree-sitter-javascript](https://github.com/tree-sitter/tree-sitter-javascript)
+- Tree-sitter: [tree-sitter/tree-sitter-JavaScript](https://github.com/tree-sitter/tree-sitter-javascript)
 - Language Server: [yioneko/vtsls](https://github.com/yioneko/vtsls)
 - Alternate Language Server: [typescript-language-server/typescript-language-server](https://github.com/typescript-language-server/typescript-language-server)
 - Debug Adapter: [vscode-js-debug](https://github.com/microsoft/vscode-js-debug)
@@ -16,7 +16,7 @@ JavaScript support is available natively in Zed.
 
 Formatting on save is enabled by default for JavaScript, using TypeScript's built-in code formatting.
 But many JavaScript projects use other command-line code-formatting tools, such as [Prettier](https://prettier.io/).
-You can use one of these tools by specifying an _external_ code formatter for JavaScript in your settings.
+You can use one of these tools by specifying an *external* code formatter for JavaScript in your settings.
 See [the configuration docs](../reference/all-settings.md) for more information.
 
 For example, if you have Prettier installed and on your `PATH`, you can use it to format JavaScript files.
@@ -112,7 +112,7 @@ Configure in Settings ({#kb zed::OpenSettings}) under Languages > JavaScript, or
 }
 ```
 
-### Configure ESLint's `nodePath`:
+### Configure ESLint's `nodePath`
 
 You can configure ESLint's `nodePath` setting:
 
@@ -128,7 +128,7 @@ You can configure ESLint's `nodePath` setting:
 }
 ```
 
-### Configure ESLint's `problems`:
+### Configure ESLint's `problems`
 
 You can configure ESLint's `problems` setting.
 
@@ -148,7 +148,7 @@ For example, here's how to set `problems.shortenToSingleLine`:
 }
 ```
 
-### Configure ESLint's `rulesCustomizations`:
+### Configure ESLint's `rulesCustomizations`
 
 You can configure ESLint's `rulesCustomizations` setting:
 
@@ -167,7 +167,7 @@ You can configure ESLint's `rulesCustomizations` setting:
 }
 ```
 
-### Configure ESLint's `workingDirectory`:
+### Configure ESLint's `workingDirectory`
 
 You can configure ESLint's `workingDirectory` setting:
 

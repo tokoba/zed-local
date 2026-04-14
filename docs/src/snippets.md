@@ -34,7 +34,7 @@ The scope is determined by the language name in lowercase e.g. `python.json` for
 | Scope      | Filename        |
 | ---------- | --------------- |
 | Global     | snippets.json   |
-| JSX        | javascript.json |
+| JSX        | JavaScript.json |
 | Plain Text | plaintext.json  |
 
 To create JSX snippets you have to use `javascript.json` snippets file, instead of `jsx.json`, but this does not apply to TSX and TypeScript which follow the above rule.

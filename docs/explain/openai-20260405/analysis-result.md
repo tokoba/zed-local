@@ -2365,79 +2365,79 @@
 ## Processed (Failure)
 
 - `C:/Drive/rust/zed-local/crates/edit_prediction/Cargo.toml`
-  - error: "Internal error: Other error: api error: openai-compat POST http://127.0.0.1:5130/v1/chat/completions - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
+  - error: "Internal error: Other error: api error: openai-compat POST <http://127.0.0.1:5130/v1/chat/completions> - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
 - `C:/Drive/rust/zed-local/crates/edit_prediction/license_examples/0bsd.txt`
-  - error: "Internal error: Other error: api error: openai-compat POST http://127.0.0.1:5130/v1/chat/completions - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
+  - error: "Internal error: Other error: api error: openai-compat POST <http://127.0.0.1:5130/v1/chat/completions> - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
 - `C:/Drive/rust/zed-local/crates/edit_prediction/license_examples/apache-2.0-ex0.txt`
-  - error: "Internal error: Other error: api error: openai-compat POST http://127.0.0.1:5130/v1/chat/completions - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
+  - error: "Internal error: Other error: api error: openai-compat POST <http://127.0.0.1:5130/v1/chat/completions> - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
 - `C:/Drive/rust/zed-local/crates/edit_prediction/license_examples/apache-2.0-ex1.txt`
-  - error: "Internal error: Other error: api error: openai-compat POST http://127.0.0.1:5130/v1/chat/completions - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
+  - error: "Internal error: Other error: api error: openai-compat POST <http://127.0.0.1:5130/v1/chat/completions> - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
 - `C:/Drive/rust/zed-local/crates/edit_prediction/license_examples/apache-2.0-ex2.txt`
-  - error: "Internal error: Other error: api error: openai-compat POST http://127.0.0.1:5130/v1/chat/completions - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
+  - error: "Internal error: Other error: api error: openai-compat POST <http://127.0.0.1:5130/v1/chat/completions> - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
 - `C:/Drive/rust/zed-local/crates/edit_prediction/license_examples/apache-2.0-ex3.txt`
-  - error: "Internal error: Other error: api error: openai-compat POST http://127.0.0.1:5130/v1/chat/completions - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
+  - error: "Internal error: Other error: api error: openai-compat POST <http://127.0.0.1:5130/v1/chat/completions> - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
 - `C:/Drive/rust/zed-local/crates/edit_prediction/license_examples/apache-2.0-ex4.txt`
-  - error: "Internal error: Other error: api error: openai-compat POST http://127.0.0.1:5130/v1/chat/completions - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
+  - error: "Internal error: Other error: api error: openai-compat POST <http://127.0.0.1:5130/v1/chat/completions> - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
 - `C:/Drive/rust/zed-local/crates/edit_prediction/license_examples/bsd-1-clause.txt`
-  - error: "Internal error: Other error: api error: openai-compat POST http://127.0.0.1:5130/v1/chat/completions - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
+  - error: "Internal error: Other error: api error: openai-compat POST <http://127.0.0.1:5130/v1/chat/completions> - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
 - `C:/Drive/rust/zed-local/crates/edit_prediction/license_examples/bsd-2-clause-ex0.txt`
-  - error: "Internal error: Other error: api error: openai-compat POST http://127.0.0.1:5130/v1/chat/completions - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
+  - error: "Internal error: Other error: api error: openai-compat POST <http://127.0.0.1:5130/v1/chat/completions> - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
 - `C:/Drive/rust/zed-local/crates/edit_prediction/license_examples/bsd-3-clause-ex0.txt`
-  - error: "Internal error: Other error: api error: openai-compat POST http://127.0.0.1:5130/v1/chat/completions - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
+  - error: "Internal error: Other error: api error: openai-compat POST <http://127.0.0.1:5130/v1/chat/completions> - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
 - `C:/Drive/rust/zed-local/crates/edit_prediction/license_examples/bsd-3-clause-ex1.txt`
-  - error: "Internal error: Other error: api error: openai-compat POST http://127.0.0.1:5130/v1/chat/completions - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
+  - error: "Internal error: Other error: api error: openai-compat POST <http://127.0.0.1:5130/v1/chat/completions> - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
 - `C:/Drive/rust/zed-local/crates/edit_prediction/license_examples/bsd-3-clause-ex2.txt`
-  - error: "Internal error: Other error: api error: openai-compat POST http://127.0.0.1:5130/v1/chat/completions - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
+  - error: "Internal error: Other error: api error: openai-compat POST <http://127.0.0.1:5130/v1/chat/completions> - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
 - `C:/Drive/rust/zed-local/crates/edit_prediction/license_examples/bsd-3-clause-ex3.txt`
-  - error: "Internal error: Other error: api error: openai-compat POST http://127.0.0.1:5130/v1/chat/completions - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
+  - error: "Internal error: Other error: api error: openai-compat POST <http://127.0.0.1:5130/v1/chat/completions> - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
 - `C:/Drive/rust/zed-local/crates/edit_prediction/license_examples/bsd-3-clause-ex4.txt`
-  - error: "Internal error: Other error: api error: openai-compat POST http://127.0.0.1:5130/v1/chat/completions - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
+  - error: "Internal error: Other error: api error: openai-compat POST <http://127.0.0.1:5130/v1/chat/completions> - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
 - `C:/Drive/rust/zed-local/crates/edit_prediction/license_examples/isc.txt`
-  - error: "Internal error: Other error: api error: openai-compat POST http://127.0.0.1:5130/v1/chat/completions - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
+  - error: "Internal error: Other error: api error: openai-compat POST <http://127.0.0.1:5130/v1/chat/completions> - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
 - `C:/Drive/rust/zed-local/crates/edit_prediction/license_examples/mit-ex0.txt`
-  - error: "Internal error: Other error: api error: openai-compat POST http://127.0.0.1:5130/v1/chat/completions - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
+  - error: "Internal error: Other error: api error: openai-compat POST <http://127.0.0.1:5130/v1/chat/completions> - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
 - `C:/Drive/rust/zed-local/crates/edit_prediction/license_examples/mit-ex1.txt`
-  - error: "Internal error: Other error: api error: openai-compat POST http://127.0.0.1:5130/v1/chat/completions - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
+  - error: "Internal error: Other error: api error: openai-compat POST <http://127.0.0.1:5130/v1/chat/completions> - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
 - `C:/Drive/rust/zed-local/crates/edit_prediction/license_examples/mit-ex2.txt`
-  - error: "Internal error: Other error: api error: openai-compat POST http://127.0.0.1:5130/v1/chat/completions - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
+  - error: "Internal error: Other error: api error: openai-compat POST <http://127.0.0.1:5130/v1/chat/completions> - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
 - `C:/Drive/rust/zed-local/crates/edit_prediction/license_examples/mit-ex3.txt`
-  - error: "Internal error: Other error: api error: openai-compat POST http://127.0.0.1:5130/v1/chat/completions - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
+  - error: "Internal error: Other error: api error: openai-compat POST <http://127.0.0.1:5130/v1/chat/completions> - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
 - `C:/Drive/rust/zed-local/crates/edit_prediction/license_examples/upl-1.0.txt`
-  - error: "Internal error: Other error: api error: openai-compat POST http://127.0.0.1:5130/v1/chat/completions - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
+  - error: "Internal error: Other error: api error: openai-compat POST <http://127.0.0.1:5130/v1/chat/completions> - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
 - `C:/Drive/rust/zed-local/crates/edit_prediction/license_examples/zlib-ex0.txt`
-  - error: "Internal error: Other error: api error: openai-compat POST http://127.0.0.1:5130/v1/chat/completions - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
+  - error: "Internal error: Other error: api error: openai-compat POST <http://127.0.0.1:5130/v1/chat/completions> - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
 - `C:/Drive/rust/zed-local/crates/edit_prediction/src/capture_example.rs`
-  - error: "Internal error: Other error: api error: openai-compat POST http://127.0.0.1:5130/v1/chat/completions - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
+  - error: "Internal error: Other error: api error: openai-compat POST <http://127.0.0.1:5130/v1/chat/completions> - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
 - `C:/Drive/rust/zed-local/crates/edit_prediction/src/cursor_excerpt.rs`
-  - error: "Internal error: Other error: api error: openai-compat POST http://127.0.0.1:5130/v1/chat/completions - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
+  - error: "Internal error: Other error: api error: openai-compat POST <http://127.0.0.1:5130/v1/chat/completions> - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
 - `C:/Drive/rust/zed-local/crates/edit_prediction/src/edit_prediction.rs`
-  - error: "Internal error: Other error: api error: openai-compat POST http://127.0.0.1:5130/v1/chat/completions - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
+  - error: "Internal error: Other error: api error: openai-compat POST <http://127.0.0.1:5130/v1/chat/completions> - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
 - `C:/Drive/rust/zed-local/crates/edit_prediction/src/edit_prediction_tests.rs`
-  - error: "Internal error: Other error: api error: openai-compat POST http://127.0.0.1:5130/v1/chat/completions - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
+  - error: "Internal error: Other error: api error: openai-compat POST <http://127.0.0.1:5130/v1/chat/completions> - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
 - `C:/Drive/rust/zed-local/crates/edit_prediction/src/example_spec.rs`
-  - error: "Internal error: Other error: api error: openai-compat POST http://127.0.0.1:5130/v1/chat/completions - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
+  - error: "Internal error: Other error: api error: openai-compat POST <http://127.0.0.1:5130/v1/chat/completions> - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
 - `C:/Drive/rust/zed-local/crates/edit_prediction/src/fim.rs`
-  - error: "Internal error: Other error: api error: openai-compat POST http://127.0.0.1:5130/v1/chat/completions - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
+  - error: "Internal error: Other error: api error: openai-compat POST <http://127.0.0.1:5130/v1/chat/completions> - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
 - `C:/Drive/rust/zed-local/crates/edit_prediction/src/license_detection.rs`
-  - error: "Internal error: Other error: api error: openai-compat POST http://127.0.0.1:5130/v1/chat/completions - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
+  - error: "Internal error: Other error: api error: openai-compat POST <http://127.0.0.1:5130/v1/chat/completions> - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
 - `C:/Drive/rust/zed-local/crates/edit_prediction/src/mercury.rs`
-  - error: "Internal error: Other error: api error: openai-compat POST http://127.0.0.1:5130/v1/chat/completions - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
+  - error: "Internal error: Other error: api error: openai-compat POST <http://127.0.0.1:5130/v1/chat/completions> - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
 - `C:/Drive/rust/zed-local/crates/edit_prediction/src/ollama.rs`
-  - error: "Internal error: Other error: api error: openai-compat POST http://127.0.0.1:5130/v1/chat/completions - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
+  - error: "Internal error: Other error: api error: openai-compat POST <http://127.0.0.1:5130/v1/chat/completions> - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
 - `C:/Drive/rust/zed-local/crates/edit_prediction/src/onboarding_modal.rs`
-  - error: "Internal error: Other error: api error: openai-compat POST http://127.0.0.1:5130/v1/chat/completions - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
+  - error: "Internal error: Other error: api error: openai-compat POST <http://127.0.0.1:5130/v1/chat/completions> - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
 - `C:/Drive/rust/zed-local/crates/edit_prediction/src/open_ai_compatible.rs`
-  - error: "Internal error: Other error: api error: openai-compat POST http://127.0.0.1:5130/v1/chat/completions - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
+  - error: "Internal error: Other error: api error: openai-compat POST <http://127.0.0.1:5130/v1/chat/completions> - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
 - `C:/Drive/rust/zed-local/crates/edit_prediction/src/open_ai_response.rs`
-  - error: "Internal error: Other error: api error: openai-compat POST http://127.0.0.1:5130/v1/chat/completions - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
+  - error: "Internal error: Other error: api error: openai-compat POST <http://127.0.0.1:5130/v1/chat/completions> - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
 - `C:/Drive/rust/zed-local/crates/edit_prediction/src/prediction.rs`
-  - error: "Internal error: Other error: api error: openai-compat POST http://127.0.0.1:5130/v1/chat/completions - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
+  - error: "Internal error: Other error: api error: openai-compat POST <http://127.0.0.1:5130/v1/chat/completions> - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
 - `C:/Drive/rust/zed-local/crates/edit_prediction/src/udiff.rs`
-  - error: "Internal error: Other error: api error: openai-compat POST http://127.0.0.1:5130/v1/chat/completions - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
+  - error: "Internal error: Other error: api error: openai-compat POST <http://127.0.0.1:5130/v1/chat/completions> - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
 - `C:/Drive/rust/zed-local/crates/edit_prediction/src/zed_edit_prediction_delegate.rs`
-  - error: "Internal error: Other error: api error: openai-compat POST http://127.0.0.1:5130/v1/chat/completions - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
+  - error: "Internal error: Other error: api error: openai-compat POST <http://127.0.0.1:5130/v1/chat/completions> - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
 - `C:/Drive/rust/zed-local/crates/edit_prediction/src/zeta.rs`
-  - error: "Internal error: Other error: api error: openai-compat POST http://127.0.0.1:5130/v1/chat/completions - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
+  - error: "Internal error: Other error: api error: openai-compat POST <http://127.0.0.1:5130/v1/chat/completions> - 500 - {"error":"{\"status\":500,\"error\":{\"error_code\":\"INTERNAL_SERVER_ERROR\",\"message\":\"内部サーバーエラーが発生しました\",\"errors\":null}}"}"
 
 ## Notes
 

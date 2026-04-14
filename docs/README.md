@@ -2,7 +2,7 @@
 
 Welcome to Zed's documentation.
 
-This is built on push to `main` and published automatically to [https://zed.dev/docs](https://zed.dev/docs).
+This is built on push to `main` and published automatically to <https://zed.dev/docs>.
 
 To preview the docs locally you will need to install [mdBook](https://rust-lang.github.io/mdBook/) (`cargo install mdbook@0.4.40`), generate the action metadata, and then serve:
 
@@ -33,7 +33,7 @@ To add images or videos to the docs, upload them to another location (e.g., zed.
 
 Putting binary assets such as images in the Git repository will bloat the repository size over time.
 
-## Internal notes:
+## Internal notes
 
 - We have a Cloudflare router called `docs-proxy` that intercepts requests to `zed.dev/docs` and forwards them to the "docs" Cloudflare Pages project.
 - The CI uploads a new version to the Cloudflare Pages project from `.github/workflows/deploy_docs.yml` on every push to `main`.

@@ -19,7 +19,7 @@ We currently support:
 - Sublime Text
 - TextMate
 - Cursor
-- None (disables _all_ key bindings)
+- None (disables *all* key bindings)
 
 This setting can also be changed via the command palette through the `zed: toggle base keymap selector` action.
 

@@ -30,7 +30,7 @@ Configure language servers in Settings ({#kb zed::OpenSettings}) under Languages
 }
 ```
 
-## See also:
+## See also
 
 - [Elixir](./elixir.md)
 - [Gleam](./gleam.md)

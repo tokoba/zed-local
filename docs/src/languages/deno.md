@@ -128,7 +128,7 @@ To run deno tasks like tests from the ui, add this to `.zed/tasks.json`
 ]
 ```
 
-## See also:
+## See also
 
 - [TypeScript](./typescript.md)
 - [JavaScript](./javascript.md)

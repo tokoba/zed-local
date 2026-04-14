@@ -242,7 +242,7 @@ Here's an example from an `injections.scm` file for Markdown:
  (#set! injection.language "markdown-inline"))
 ```
 
-This query identifies fenced code blocks, capturing the language specified in the info string and the content within the block. It also captures inline content and sets its language to "markdown-inline".
+This query identifies fenced code blocks, capturing the language specified in the info string and the content within the block. It also captures inline content and sets its language to "Markdown-inline".
 
 | Capture             | Description                                                |
 | ------------------- | ---------------------------------------------------------- |
@@ -253,11 +253,11 @@ Note that we couldn't use JSON as an example here because it doesn't support lan
 
 ### Syntax overrides
 
-The `overrides.scm` file defines syntactic _scopes_ that can be used to override certain editor settings within specific language constructs.
+The `overrides.scm` file defines syntactic *scopes* that can be used to override certain editor settings within specific language constructs.
 
 For example, there is a language-specific setting called `word_characters` that controls which non-alphabetic characters are considered part of a word, for example when you double click to select a variable. In JavaScript, "$" and "#" are considered word characters.
 
-There is also a language-specific setting called `completion_query_characters` that controls which characters trigger autocomplete suggestions. In JavaScript, when your cursor is within a _string_, `-` should be considered a completion query character. To achieve this, the JavaScript `overrides.scm` file contains the following pattern:
+There is also a language-specific setting called `completion_query_characters` that controls which characters trigger autocomplete suggestions. In JavaScript, when your cursor is within a *string*, `-` should be considered a completion query character. To achieve this, the JavaScript `overrides.scm` file contains the following pattern:
 
 ```scheme
 [
@@ -286,7 +286,7 @@ brackets = [
 
 #### Range inclusivity
 
-By default, the ranges defined in `overrides.scm` are _exclusive_. So in the case above, if your cursor was _outside_ the quotation marks delimiting the string, the `string` scope would not take effect. Sometimes, you may want to make the range _inclusive_. You can do this by adding the `.inclusive` suffix to the capture name in the query.
+By default, the ranges defined in `overrides.scm` are *exclusive*. So in the case above, if your cursor was *outside* the quotation marks delimiting the string, the `string` scope would not take effect. Sometimes, you may want to make the range *inclusive*. You can do this by adding the `.inclusive` suffix to the capture name in the query.
 
 For example, in JavaScript, we also disable auto-closing of single quotes within comments. And the comment scope must extend all the way to the newline after a line comment. To achieve this, the JavaScript `overrides.scm` contains the following pattern:
 

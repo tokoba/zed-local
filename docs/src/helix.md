@@ -5,7 +5,7 @@ description: Helix-style keybindings and modal editing in Zed. Selection-first e
 
 # Helix Mode
 
-_Work in progress. Not all Helix keybindings are implemented yet._
+*Work in progress. Not all Helix keybindings are implemented yet.*
 
 Zed's Helix mode is an emulation layer that brings Helix-style keybindings and modal editing to Zed. It builds upon Zed's [Vim mode](./vim.md), so much of the core functionality is shared. Enabling `helix_mode` will also enable `vim_mode`.
 

@@ -37,8 +37,8 @@ This method should return the command to start up a debug adapter protocol serve
 
 If you need to download the DAP server from an external source (GitHub Releases, npm, etc.), you can also do that in this function. Make sure to check for updates only periodically, as this function is called whenever a user spawns a new debug session with your debug adapter.
 
-You must also implement `dap_request_kind`. This function is used to determine whether a given debug scenario will _launch_ a new debuggee or _attach_ to an existing one.
-We also use it to determine that a given debug scenario requires running a _locator_.
+You must also implement `dap_request_kind`. This function is used to determine whether a given debug scenario will *launch* a new debuggee or *attach* to an existing one.
+We also use it to determine that a given debug scenario requires running a *locator*.
 
 ```rust
 impl zed::Extension for MyExtension {
@@ -67,7 +67,7 @@ Put another way, it is supposed to answer the question: "Given a program, a list
 
 ## Defining Debug Locators
 
-Zed offers an automatic way to create debug scenarios with _debug locators_.
+Zed offers an automatic way to create debug scenarios with *debug locators*.
 A locator locates the debug target and figures out how to spawn a debug session for it. Thanks to locators, we can automatically convert existing user tasks (e.g. `cargo run`) and convert them into debug scenarios (e.g. `cargo build` followed by spawning a debugger with `target/debug/my_program` as the program to debug).
 
 > Your extension can define its own debug locators even if it does not expose a debug adapter. We strongly recommend doing so when your extension already exposes language tasks, as it allows users to spawn a debug session without having to manually configure the debug adapter.
@@ -109,7 +109,7 @@ impl zed::Extension for MyExtension {
 ```
 
 `run_dap_locator` is useful in case you cannot determine a build target deterministically. Some build systems may produce artifacts whose names are not known up-front.
-Note however that you do _not_ need to go through a 2-phase resolution; if you can determine the full debug configuration with just `dap_locator_create_scenario`, you can omit `build` property on a returned `DebugScenario`. Please also note that your locator **will be** called with tasks it's unlikely to accept; thus you should take some effort to return `None` early before performing any expensive operations.
+Note however that you do *not* need to go through a 2-phase resolution; if you can determine the full debug configuration with just `dap_locator_create_scenario`, you can omit `build` property on a returned `DebugScenario`. Please also note that your locator **will be** called with tasks it's unlikely to accept; thus you should take some effort to return `None` early before performing any expensive operations.
 
 ## Available Extensions
 

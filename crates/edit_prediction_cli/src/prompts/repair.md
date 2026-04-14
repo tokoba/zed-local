@@ -36,6 +36,7 @@ Follow the same output format as before, with one addition:
   Use `KEEP_PREVIOUS` when you determine the original prediction correctly addresses the user's intent despite the feedback.
 
 **Important:** `NO_EDITS` and `KEEP_PREVIOUS` are NOT interchangeable:
+
 - `NO_EDITS` = make zero changes to the code (discard the previous prediction)
 - `KEEP_PREVIOUS` = the previous prediction is correct, use it as-is
 

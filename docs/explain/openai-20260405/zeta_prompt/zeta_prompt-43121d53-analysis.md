@@ -860,7 +860,7 @@ let parsed = parse_zeta2_model_output(model_output, format, &input_for_prompt)?;
 | `zeta_prompt/Cargo.toml` | ライブラリクレート `zeta_prompt` の設定。lib のエントリポイントを `src/zeta_prompt.rs` に設定しています。 |
 | `zeta_prompt/src/zeta_prompt.rs` | クレートルート。`ZetaPromptInput`, `ZetaFormat`、プロンプト生成・出力解析・学習用出力生成など、公開 API の中心を提供します。内部に各フォーマットモジュール（`v0120_git_merge_markers`, `hashline`, `seed_coder`, `v0304_variable_edit`, `zeta1` など）を含みます。 |
 | `zeta_prompt/src/excerpt_ranges.rs` | カーソル周辺のテキストと構文ノード範囲から editable/context 範囲を計算するロジックを提供します。`compute_editable_and_context_ranges` はクレートから再エクスポートされています。 |
-| `zeta_prompt/src/multi_region.rs` | editable テキストを複数ブロックに分割し `<|marker_*|>` 形式で表現するマルチリージョンエンコード／デコードを実装します。`V0316/V0317/V0318` などのバージョン差もこのファイルで扱われます。 |
+| `zeta_prompt/src/multi_region.rs` | editable テキストを複数ブロックに分割し `<|marker_*|>`形式で表現するマルチリージョンエンコード／デコードを実装します。`V0316/V0317/V0318` などのバージョン差もこのファイルで扱われます。 |
 | `zeta_prompt/src/udiff.rs` | unified diff 文字列のパース (`DiffParser`) と、テキストへの適用 (`apply_diff_to_string_with_hunk_offset`) を提供します。multi-region や variable-edit などで「old → new テキスト」変換に利用されます。 |
 
 この 5 ファイルで、プロンプト生成・出力解釈・学習用ターゲット生成・差分適用までの一連の処理が完結する構成になっています。

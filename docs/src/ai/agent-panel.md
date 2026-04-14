@@ -27,7 +27,7 @@ Expand the editor with {#kb agent::ExpandMessageEditor} if you need more room.
 Responses stream in with indicators showing [which tools](./tools.md) the model is using.
 The sections below cover what you can do from here.
 
-> Note that for external agents, like [Gemini CLI](./external-agents.md#gemini-cli) or [Claude Agent](./external-agents.md#claude-agent), some of the features outlined below may _not_ be supported—for example, _restoring threads from history_, _checkpoints_, _token usage display_, and others.
+> Note that for external agents, like [Gemini CLI](./external-agents.md#gemini-cli) or [Claude Agent](./external-agents.md#claude-agent), some of the features outlined below may *not* be supported—for example, *restoring threads from history*, *checkpoints*, *token usage display*, and others.
 > Their availability varies depending on the agent.
 
 ### Creating New Threads {#new-thread}
@@ -143,7 +143,7 @@ You can also do this at any time with an ongoing thread via the "Agent Options" 
 After you've configured your LLM providers—either via [a custom API key](./llm-providers.md) or through [Zed's hosted models](./models.md)—you can switch between their models by clicking on the model selector on the message editor or by using the {#kb agent::ToggleModelSelector} keybinding.
 
 > The same model can be offered via multiple providers - for example, Claude Sonnet 4.5 is available via Zed Pro, OpenRouter, Anthropic directly, and more.
-> Make sure you've selected the correct model **_provider_** for the model you'd like to use, delineated by the logo to the left of the model in the model selector.
+> Make sure you've selected the correct model ***provider*** for the model you'd like to use, delineated by the logo to the left of the model in the model selector.
 
 ### Favoriting Models
 
@@ -236,7 +236,7 @@ You can rate agent responses to help improve Zed's system prompt and tools.
 
 > Note that rating responses will send your data related to that response to Zed's servers.
 > See [AI Improvement](./ai-improvement.md) and [Privacy and Security](./privacy-and-security.md) for more information about Zed's approach to AI improvement, privacy, and security.
-> **_If you don't want data persisted on Zed's servers, don't rate_**.
+> ***If you don't want data persisted on Zed's servers, don't rate***.
 > We will not collect data for improving our Agentic offering without you explicitly rating responses.
 
 To help improve Zed's system prompt and tools, rate responses with the thumbs up/down controls at the end of each response.

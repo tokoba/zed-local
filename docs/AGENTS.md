@@ -4,11 +4,11 @@ This file governs automated documentation updates triggered by code changes. All
 
 ## Documentation System
 
-This documentation uses **mdBook** (https://rust-lang.github.io/mdBook/).
+This documentation uses **mdBook** (<https://rust-lang.github.io/mdBook/>).
 
 ### Key Files
 
-- **`docs/src/SUMMARY.md`**: Table of contents following mdBook format (https://rust-lang.github.io/mdBook/format/summary.html)
+- **`docs/src/SUMMARY.md`**: Table of contents following mdBook format (<https://rust-lang.github.io/mdBook/format/summary.html>)
 - **`docs/book.toml`**: mdBook configuration
 - **`docs/.prettierrc`**: Prettier config (80 char line width)
 

@@ -1,4 +1,4 @@
-# Welcome to GPUI!
+# Welcome to GPUI
 
 GPUI is a hybrid immediate and retained mode, GPU accelerated, UI framework
 for Rust, designed to support a wide variety of applications.

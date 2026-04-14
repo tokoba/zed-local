@@ -6,7 +6,7 @@ description: "Configure Biome language support in Zed, including language server
 # Biome
 
 [Biome](https://biomejs.dev/) support in Zed is provided by the community-maintained [Biome extension](https://github.com/biomejs/biome-zed).
-Report issues to: [https://github.com/biomejs/biome-zed/issues](https://github.com/biomejs/biome-zed/issues)
+Report issues to: <https://github.com/biomejs/biome-zed/issues>
 
 - Language Server: [biomejs/biome](https://github.com/biomejs/biome)
 

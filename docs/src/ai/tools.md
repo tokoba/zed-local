@@ -29,7 +29,7 @@ Fetches a URL and returns the content as Markdown. Useful for providing docs as 
 
 ### `find_path`
 
-Quickly finds files by matching glob patterns (like "\*_/_.js"), returning matching file paths alphabetically.
+Quickly finds files by matching glob patterns (like "\**/*.js"), returning matching file paths alphabetically.
 
 ### `grep`
 

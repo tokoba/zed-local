@@ -35,7 +35,7 @@ fn should_appear_in_profile(kitty: Cat) {
 
 Then either compile Zed with `ZTRACING=1 cargo r --features tracy --release`. The release build is optional but highly recommended as like every program Zeds performance characteristics change dramatically with optimizations. You do not want to chase slowdowns that do not exist in release.
 
-## One time Setup/Building the profiler:
+## One time Setup/Building the profiler
 
 Download the profiler:
 [linux x86_64](https://zed-tracy-import-miniprofiler.nyc3.digitaloceanspaces.com/tracy-profiler-linux-x86_64)
@@ -43,7 +43,7 @@ Download the profiler:
 
 ### Alternative: Building it yourself
 
-- Clone the repo at git@github.com:wolfpld/tracy.git
+- Clone the repo at <git@github.com>:wolfpld/tracy.git
 - `cd profiler && mkdir build && cd build`
 - Run cmake to generate build files: `cmake -G Ninja -DCMAKE_BUILD_TYPE=Release ..`
 - Build the profiler: `ninja`
@@ -55,7 +55,7 @@ Open the profiler (tracy-profiler), you should see zed in the list of `Discovere
 
 <img width="392" height="auto" alt="image" src="https://github.com/user-attachments/assets/b6f06fc3-6b25-41c7-ade9-558cc93d6033" style="display: block; margin: 0 auto;"/>
 
-Tracy is an incredibly powerful profiler which can do a lot however it's UI is not that friendly. This is not the place for an in depth guide to Tracy, I do however want to highlight one particular workflow that is helpful when figuring out why a piece of code is _sometimes_ slow.
+Tracy is an incredibly powerful profiler which can do a lot however it's UI is not that friendly. This is not the place for an in depth guide to Tracy, I do however want to highlight one particular workflow that is helpful when figuring out why a piece of code is *sometimes* slow.
 
 Here are the steps:
 
@@ -83,7 +83,7 @@ Here are the steps:
 
 <img width="1964" height="auto" alt="Scroll to zoom in" src="https://github.com/user-attachments/assets/625c2bf4-a68d-40c4-becb-ade16bc9a8bc" />
 
-7. Click on a caller to to get statistics on _it_.
+7. Click on a caller to to get statistics on *it*.
 
 <img width="1888" height="auto" alt="Click on any of the zones to get statistics" src="https://github.com/user-attachments/assets/7e578825-2b63-4b7f-88f7-0cb16b8a3387" />
 
@@ -103,7 +103,7 @@ the background.
 The profiler always runs in the background. You can save a trace from its UI or
 look at the results live.
 
-## Setup/Building the importer:
+## Setup/Building the importer
 
 Download the importer
 [linux x86_64](https://zed-tracy-import-miniprofiler.nyc3.digitaloceanspaces.com/tracy-import-miniprofiler-linux-x86_64)
@@ -111,16 +111,16 @@ Download the importer
 
 ### Alternative: Building it yourself
 
-- Clone the repo at git@github.com:zed-industries/tracy.git on v0.12.2 branch
+- Clone the repo at <git@github.com>:zed-industries/tracy.git on v0.12.2 branch
 - `cd import && mkdir build && cd build`
 - Run cmake to generate build files: `cmake -G Ninja -DCMAKE_BUILD_TYPE=Release ..`
 - Build the importer: `ninja`
 - Run the importer on the trace file: `./tracy-import-miniprofiler /path/to/trace.miniprof.json /path/to/output.tracy`
 - Open the trace in tracy:
   - If you're on windows download the v0.12.2 version from the releases on the upstream repo
-  - If you're on other platforms open it on the website: https://tracy.nereid.pl/ (the version might mismatch so your luck might vary, we need to host our own ideally..)
+  - If you're on other platforms open it on the website: <https://tracy.nereid.pl/> (the version might mismatch so your luck might vary, we need to host our own ideally..)
 
-## To Save a Trace:
+## To Save a Trace
 
 - Run the action: `zed open performance profiler`
 - Hit the save button. This opens a save dialog or if that fails to open the trace gets saved in your working directory.

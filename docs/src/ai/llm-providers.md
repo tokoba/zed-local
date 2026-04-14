@@ -15,7 +15,7 @@ If you already have an API key for a provider like Anthropic or OpenAI, you can 
 
 To add an existing API key to a given provider, go to the Agent Panel settings (`agent: open settings`), look for the desired provider, paste the key into the input, and hit enter.
 
-> Note: API keys are _not_ stored as plain text in your settings file, but rather in your OS's secure credential storage.
+> Note: API keys are *not* stored as plain text in your settings file, but rather in your OS's secure credential storage.
 
 ## Supported Providers
 
@@ -71,6 +71,7 @@ With that done, choose one of the three authentication methods:
 
 1. Ensure you have the AWS CLI installed and configured with a named profile
 2. Open your settings file (`zed: open settings file`) and include the `bedrock` key under `language_models` with the following settings:
+
    ```json [settings]
    {
      "language_models": {

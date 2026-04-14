@@ -6,7 +6,7 @@ description: "Configure Nim language support in Zed, including language servers,
 # Nim
 
 Nim language support in Zed is provided by the community-maintained [Nim extension](https://github.com/foxoman/zed-nim).
-Report issues to: [https://github.com/foxoman/zed-nim/issues](https://github.com/foxoman/zed-nim/issues)
+Report issues to: <https://github.com/foxoman/zed-nim/issues>
 
 - Tree-sitter: [alaviss/tree-sitter-nim](https://github.com/alaviss/tree-sitter-nim)
 - Language Server: [nim-lang/langserver](https://github.com/nim-lang/langserver)

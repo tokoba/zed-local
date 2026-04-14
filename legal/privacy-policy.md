@@ -12,13 +12,13 @@ Zed collects user information (name, email, username, IP address, etc.), device 
 - **We don't sell your data and we don't allow AI providers to train on it**
 - **You control Zed editor telemetry** — disable it in Settings or learn more at [https://zed.dev/docs/telemetry](/telemetry)
 - **We honor Global Privacy Control** (GPC) signals from your browser
-- To access, correct, or delete your data, email privacy@zed.dev with subject "Privacy Request"
+- To access, correct, or delete your data, email <privacy@zed.dev> with subject "Privacy Request"
 
-Questions? Contact us at privacy@zed.dev. The full policy below contains complete details.
+Questions? Contact us at <privacy@zed.dev>. The full policy below contains complete details.
 
 ## Introduction
 
-This Privacy Policy explains how Zed Industries, Inc. ("**Zed**," "**we**," "**our**," or "**us**") collects, uses, and shares your personal data when you use our websites (including [https://zed.dev](https://zed.dev)), our downloadable software ("**Software**"), our subscription service ("**Service**"), or otherwise interact with us.
+This Privacy Policy explains how Zed Industries, Inc. ("**Zed**," "**we**," "**our**," or "**us**") collects, uses, and shares your personal data when you use our websites (including <https://zed.dev>), our downloadable software ("**Software**"), our subscription service ("**Service**"), or otherwise interact with us.
 
 As used in this Privacy Policy, “personal data” means any information relating to an identified or identifiable individual and includes any information that constitutes "personally identifiable information," “personal data,” or "personal information" under applicable privacy or data protection laws or regulations.
 
@@ -154,7 +154,7 @@ When you request deletion, we take measures to delete your personal data or anon
 
 ## Security
 
-Designing Zed and our Service with “secure-by-default” as an objective is of utmost importance to us. We take your security and ours very seriously and strive to follow industry best-practice in order to uphold that principle.  To learn more about Zed’s security program, please visit [https://zed.dev/docs/ai/privacy-and-security](https://zed.dev/docs/ai/privacy-and-security).
+Designing Zed and our Service with “secure-by-default” as an objective is of utmost importance to us. We take your security and ours very seriously and strive to follow industry best-practice in order to uphold that principle.  To learn more about Zed’s security program, please visit <https://zed.dev/docs/ai/privacy-and-security>.
 
 Zed will notify users as soon as possible should an incident affect their security or privacy. However, because no electronic transmission or storage of data can be proven entirely secure, we can make no guarantees as to the security or privacy of your data.
 

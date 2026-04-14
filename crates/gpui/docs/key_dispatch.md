@@ -4,7 +4,7 @@ GPUI is designed for keyboard-first interactivity.
 
 To expose functionality to the mouse, you render a button with a click handler.
 
-To expose functionality to the keyboard, you bind an _action_ in a _key context_.
+To expose functionality to the keyboard, you bind an *action* in a *key context*.
 
 Actions are similar to framework-level events like `MouseDown`, `KeyDown`, etc, but you can define them yourself:
 
@@ -55,7 +55,7 @@ impl Render for Menu {
 }
 ```
 
-In order to bind keys to actions, you need to declare a _key context_ for part of the element tree by calling `key_context`.
+In order to bind keys to actions, you need to declare a *key context* for part of the element tree by calling `key_context`.
 
 ```rust
 impl Render for Menu {

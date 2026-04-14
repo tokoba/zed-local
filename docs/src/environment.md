@@ -5,7 +5,7 @@ description: How Zed detects and uses environment variables. Shell integration, 
 
 # Environment Variables
 
-_**Note**: The following only applies to Zed 0.152.0 and later._
+***Note**: The following only applies to Zed 0.152.0 and later.*
 
 Multiple features in Zed are affected by environment variables:
 
@@ -27,21 +27,21 @@ If Zed is opened via the CLI (`zed`), it will inherit the environment variables 
 That means if you do
 
 ```
-$ export MY_ENV_VAR=hello
-$ zed .
+export MY_ENV_VAR=hello
+zed .
 ```
 
 the environment variable `MY_ENV_VAR` is now available inside Zed. For example, in the built-in terminal.
 
-Starting with Zed 0.152.0, the CLI `zed` will _always_ pass along its environment to Zed, regardless of whether a Zed instance was previously running or not. Prior to Zed 0.152.0 this was not the case and only the first Zed instance would inherit the environment variables.
+Starting with Zed 0.152.0, the CLI `zed` will *always* pass along its environment to Zed, regardless of whether a Zed instance was previously running or not. Prior to Zed 0.152.0 this was not the case and only the first Zed instance would inherit the environment variables.
 
 ### Launched via window manager, Dock, or launcher
 
 When Zed has been launched via the macOS Dock, or a GNOME or KDE icon on Linux, or an application launcher like Alfred or Raycast, it has no surrounding shell environment from which to inherit its environment variables.
 
-To still have a useful environment, Zed spawns a login shell in the user's home directory and reads its environment. This environment is then set on the Zed _process_, so all Zed windows and projects inherit it.
+To still have a useful environment, Zed spawns a login shell in the user's home directory and reads its environment. This environment is then set on the Zed *process*, so all Zed windows and projects inherit it.
 
-Since that can lead to problems for users who need different environment variables per project (for example with `direnv`, `asdf`, or `mise`), Zed spawns another login shell when opening a project. This second shell runs in the project's directory. The environment from that shell is _not_ set on the process, because opening a new project would otherwise change the environment for all Zed windows. Instead, that environment is stored and passed along when running tasks, opening terminals, or spawning language servers.
+Since that can lead to problems for users who need different environment variables per project (for example with `direnv`, `asdf`, or `mise`), Zed spawns another login shell when opening a project. This second shell runs in the project's directory. The environment from that shell is *not* set on the process, because opening a new project would otherwise change the environment for all Zed windows. Instead, that environment is stored and passed along when running tasks, opening terminals, or spawning language servers.
 
 ## Where and how are environment variables used?
 

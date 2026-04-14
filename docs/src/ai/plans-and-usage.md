@@ -23,9 +23,9 @@ To view your current usage, you can visit your account at [dashboard.zed.dev/acc
 
 ## Spend Limits {#usage-spend-limits}
 
-At the top of [the Account page](https://dashboard.zed.dev/account), you'll find an input for `Maximum Token Spend`. The dollar amount here specifies your _monthly_ limit for spend on tokens, _not counting_ the $5/month included with your Pro subscription.
+At the top of [the Account page](https://dashboard.zed.dev/account), you'll find an input for `Maximum Token Spend`. The dollar amount here specifies your *monthly* limit for spend on tokens, *not counting* the $5/month included with your Pro subscription.
 
-The default value for all Pro users is $10, for a total monthly spend with Zed of $20 ($10 for your Pro subscription, $10 in incremental token spend). This can be set to $0 to limit your spend with Zed to exactly $10/month. If you adjust this limit _higher_ than $10 and consume more than $10 of incremental token spend, you'll be billed via [threshold billing](./billing.md#threshold-billing).
+The default value for all Pro users is $10, for a total monthly spend with Zed of $20 ($10 for your Pro subscription, $10 in incremental token spend). This can be set to $0 to limit your spend with Zed to exactly $10/month. If you adjust this limit *higher* than $10 and consume more than $10 of incremental token spend, you'll be billed via [threshold billing](./billing.md#threshold-billing).
 
 Once the spend limit is hit, we'll stop any further usage until your token spend limit resets.
 

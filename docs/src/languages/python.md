@@ -264,7 +264,7 @@ Configure in Settings ({#kb zed::OpenSettings}) under Languages > Python, or add
 
 ### Configuring Ruff
 
-Like basedpyright, Ruff reads options from both Zed's language server settings and configuration files (`ruff.toml`) when used in Zed. Unlike basedpyright, _all_ options can be configured in either of these locations, so the choice of where to put your Ruff configuration comes down to whether you want it to be shared between projects but specific to Zed (in which case you should use language server settings), or specific to one project but common to all Ruff invocations (in which case you should use `ruff.toml`).
+Like basedpyright, Ruff reads options from both Zed's language server settings and configuration files (`ruff.toml`) when used in Zed. Unlike basedpyright, *all* options can be configured in either of these locations, so the choice of where to put your Ruff configuration comes down to whether you want it to be shared between projects but specific to Zed (in which case you should use language server settings), or specific to one project but common to all Ruff invocations (in which case you should use `ruff.toml`).
 
 Here's an example of using language server settings in Zed's `settings.json` to disable all Ruff lints in Zed (while still using Ruff as a formatter):
 

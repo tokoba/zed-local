@@ -53,7 +53,7 @@
     - ワークスペース単位の通知 (`Workspace::show_notification`, `show_error`, `show_toast`)  
     - アプリ全体に配信される通知 (`show_app_notification`, `dismiss_app_notification`)  
     を実装。  
-  - LSP からのプロンプト表示用 `LanguageServerPrompt`（markdown レンダリング・ボタン・自動 dismiss 機能付き）、シンプルなエラー表示 `ErrorMessagePrompt`、汎用メッセージ用 `simple_message_notification::MessageNotification` など複数の通知ビューコンポーネントが含まれます。  
+  - LSP からのプロンプト表示用 `LanguageServerPrompt`（Markdown レンダリング・ボタン・自動 dismiss 機能付き）、シンプルなエラー表示 `ErrorMessagePrompt`、汎用メッセージ用 `simple_message_notification::MessageNotification` など複数の通知ビューコンポーネントが含まれます。  
   - `NotifyResultExt` / `NotifyTaskExt` / `DetachAndPromptErr` などの拡張トレイトで、`Result` や `Task` に対して「エラーを通知として表示しつつ処理を続行・切り離す」ユーティリティも提供しています。
 
 - `pane.rs`（途中まで）  
@@ -1595,6 +1595,7 @@ fn show_simple_notification(cx: &mut App) {
 ### 5.2 よくある使用パターン
 
 1. **空のワークスペースを開いてからカスタマイズ**
+
    ```rust
    use crate::workspace::{open_new, OpenOptions};
    use gpui::App;
@@ -1615,6 +1616,7 @@ fn show_simple_notification(cx: &mut App) {
    - ローカルと同様に `OpenVisible` を使って「フォルダだけ開く／ファイルも開く」を制御できます。
 
 3. **通話中に別チャンネルへ移動**
+
    ```rust
    use crate::workspace::join_channel;
 

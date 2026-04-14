@@ -153,7 +153,7 @@ If you see a notification saying `Zed failed to open a window: NoSupportedDevice
 vkcube
 ```
 
-> **_Note_**: Try running in both X11 and wayland modes by running `vkcube -m [x11|wayland]`. Some versions of `vkcube` use `vkcube` to run in X11 and `vkcube-wayland` to run in wayland.
+> ***Note***: Try running in both X11 and wayland modes by running `vkcube -m [x11|wayland]`. Some versions of `vkcube` use `vkcube` to run in X11 and `vkcube-wayland` to run in wayland.
 
 This should output a line describing your current graphics setup and show a rotating cube. If this does not work, you should be able to fix it by installing Vulkan compatible GPU drivers, however in some cases there is no Vulkan support yet.
 
@@ -213,7 +213,7 @@ Passing the `--system-specs` flag to Zed like
 zed --system-specs
 ```
 
-will print the system specs to the terminal like so. It is strongly recommended to copy the output verbatim into the issue on GitHub, as it uses markdown formatting to ensure the output is readable.
+will print the system specs to the terminal like so. It is strongly recommended to copy the output verbatim into the issue on GitHub, as it uses Markdown formatting to ensure the output is readable.
 
 Additionally, it is extremely beneficial to provide the contents of your Zed log when reporting such issues. The log is usually located at `~/.local/share/zed/logs/Zed.log`. The recommended process for producing a helpful log file is as follows:
 
@@ -233,7 +233,7 @@ ZED_LOG=wgpu=info /path/to/zed/cli --foreground .
 
 It is also highly recommended when pasting the log into a github issue, to do so with the following template:
 
-> **_Note_**: The whitespace in the template is important, and will cause incorrect formatting if not preserved.
+> ***Note***: The whitespace in the template is important, and will cause incorrect formatting if not preserved.
 
 ````
 <details><summary>Zed Log</summary>

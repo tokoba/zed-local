@@ -80,7 +80,7 @@ You can install a local build on your machine with:
 
 This builds `zed` and the `cli` in release mode, installs the binary at `~/.local/bin/zed`, and installs `.desktop` files to `~/.local/share`.
 
-> **_Note_**: If you encounter linker errors similar to the following:
+> ***Note***: If you encounter linker errors similar to the following:
 >
 > ```bash
 > error: linking with `cc` failed: exit status: 1 ...
@@ -152,14 +152,14 @@ To build & install the Flatpak package locally follow the steps below:
 [`heaptrack`](https://github.com/KDE/heaptrack) is quite useful for diagnosing memory leaks. To install it:
 
 ```sh
-$ sudo apt install heaptrack heaptrack-gui
-$ cargo install cargo-heaptrack
+sudo apt install heaptrack heaptrack-gui
+cargo install cargo-heaptrack
 ```
 
 Then, to build and run Zed with the profiler attached:
 
 ```sh
-$ cargo heaptrack -b zed
+cargo heaptrack -b zed
 ```
 
 When this zed instance is exited, terminal output will include a command to run `heaptrack_interpret` to convert the `*.raw.zst` profile to a `*.zst` file which can be passed to `heaptrack_gui` for viewing.
